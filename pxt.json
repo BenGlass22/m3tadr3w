@@ -5,14 +5,19 @@
         "device": "*",
         "animation": "*",
         "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.3.1",
-        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "storyboard": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "pxt-circuit-playground-character-icons": "github:adafruit/circuit-playground-character-icons#v0.0.8",
+        "game": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        null
     ],
     "testFiles": [
         "test.ts"
@@ -24,5 +29,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
